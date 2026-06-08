@@ -154,7 +154,6 @@ for (const r of recetas) {
     id: plain(p["RECETA"]?.title).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
     emoji: r.icon?.emoji || "🍰",
     nombre: plain(p["RECETA"]?.title),
-    categoria: p["CATEGORÍA"]?.select?.name || "",
     estado: p["ESTADO"]?.status?.name || "",
     tarrosBatch: num(p["Tarros por batch"]) || 10,
     pvpLocal: num(p["PVP Tarro Local (€)"]),
