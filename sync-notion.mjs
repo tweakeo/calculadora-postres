@@ -124,8 +124,15 @@ async function readBody(pageId) {
 }
 
 // ── Main ─────────────────────────────────────────────────────────────────────
-console.log("→ Leyendo RECETAS (Tipo = Postre)…");
-const recetas = await queryAll(DS_RECETAS, { property: "Tipo", select: { equals: "🍰 Postre" } });
+// Solo se sincronizan las recetas con ESTADO = DESARROLLADA (las que están
+// "SIN DESARROLLO" o "DESARROLLANDO" se ignoran y NO aparecen en la web).
+console.log("→ Leyendo RECETAS (Tipo = Postre · ESTADO = DESARROLLADA)…");
+const recetas = await queryAll(DS_RECETAS, {
+  and: [
+    { property: "Tipo",   select: { equals: "🍰 Postre" } },
+    { property: "ESTADO", status: { equals: "DESARROLLADA" } },
+  ],
+});
 
 console.log("→ Leyendo INGREDIENTES…");
 const ingredientes = await queryAll(DS_INGREDIENTES);
