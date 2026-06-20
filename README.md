@@ -36,16 +36,15 @@ ven en la calculadora. Para publicar una receta nueva basta con ponerle
 > Notion es la fuente de verdad → `sync-notion.mjs` "hornea" un `data.js` →
 > la web carga ese `data.js`. **Actualizar = volver a sincronizar + push.**
 
-Hay **3 maneras** de lanzar esa sincronización. No hay que elegir una: conviven.
+La sincronización es **siempre manual** (no hay ningún disparo automático). Hay
+**3 formas** de lanzarla:
 
-### 1) Automático cada 30 min (ya activo, sin hacer nada)
-El workflow `sync-notion.yml` corre en GitHub cada 30 minutos: lee Notion y, si
-algo cambió, actualiza `data.js` y republica. Marca una receta como
-`DESARROLLADA` y en ≤30 min estará en la web. **Es el modo por defecto.**
-
-### 2) Manual desde GitHub (instantáneo)
+### 1) Botón desde GitHub (instantáneo)
 GitHub → pestaña **Actions** → workflow **“Sync desde Notion”** → **Run workflow**.
-Tarda ~30 s. Útil si no quieres esperar al ciclo automático.
+Tarda ~30 s. Es el modo más directo.
+
+### 2) Botón desde Notion (ver sección siguiente)
+Un botón en Notion que dispara el mismo workflow a través de un pequeño relay.
 
 ### 3) Manual desde tu ordenador
 ```bash
@@ -55,7 +54,7 @@ git add data.js && git commit -m "sync postres" && git push
 ```
 Requiere **Node 18+**. El token sale de la integración de Notion con acceso a
 RECETAS e INGREDIENTES (el secret `NOTION_TOKEN` ya está configurado en GitHub
-para los modos 1 y 2).
+para los botones de los modos 1 y 2).
 
 ## 🟢 Botón “Sincronizar” desde Notion (opcional, instantáneo)
 
@@ -106,8 +105,8 @@ Secrets del worker: `GH_PAT` (fine-grained, Contents R/W sobre los 2 repos) y
 `SECRET` (cadena aleatoria). El botón de Notion abre
 `https://<worker>.workers.dev/postres?key=<SECRET>`.
 
-> **¿Hace falta el botón?** No es imprescindible: con el modo (1) la web ya se
-> mantiene sola cada 30 min. El botón solo sirve para que el cambio sea inmediato.
+> **¿Hace falta el botón de Notion?** No: ya puedes sincronizar a mano con el
+> botón de GitHub (modo 1). El botón de Notion solo sirve para no salir de Notion.
 
 ## ⚠️ Costes de ejemplo
 Los ingredientes cuyo coste falta en Notion (porque falta **CANT. PACK** en
