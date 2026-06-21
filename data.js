@@ -6,7 +6,7 @@
 window.POSTRES_DATA = {
   "_meta": {
     "fuente": "Notion — DESARROLLO DE POSTRES (Chamberí)",
-    "generado": "2026-06-20",
+    "generado": "2026-06-21",
     "baseUnidad": "1 tarro (370 ml)",
     "packagingPorTarro": 0.82,
     "lotePrefix": "TT",
@@ -14,6 +14,142 @@ window.POSTRES_DATA = {
     "nota": "Costes con ejemplo:true son provisionales (faltan en Notion: CANT. PACK)."
   },
   "tartas": [
+    {
+      "id": "test-base-galleta-humectante",
+      "emoji": "🧪",
+      "nombre": "Test base galleta — Humectante",
+      "estado": "DESARROLLADA",
+      "tarrosBatch": 10,
+      "pvpLocal": null,
+      "pvpDelivery": 6.97,
+      "cad": 4,
+      "alergenos": [
+        "🥛 Lácteos",
+        "🌾 Gluten"
+      ],
+      "sensorial": {},
+      "notas": "",
+      "metodo": [],
+      "ingredientes": [
+        {
+          "nombre": "Galleta María — base",
+          "cantidad": 40,
+          "unidad": "g",
+          "costePorUnidad": 0.0024,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Extracto de vainilla",
+          "cantidad": 0.3,
+          "unidad": "ml",
+          "costePorUnidad": 0.05,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Leche condensada — base",
+          "cantidad": 9,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Mantequilla",
+          "cantidad": 12,
+          "unidad": "g",
+          "costePorUnidad": 0.008,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Azúcar glacé",
+          "cantidad": 20,
+          "unidad": "g",
+          "costePorUnidad": 0.002,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Nata 35%",
+          "cantidad": 40,
+          "unidad": "ml",
+          "costePorUnidad": 0.003,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Queso crema",
+          "cantidad": 100,
+          "unidad": "g",
+          "costePorUnidad": 0.006,
+          "ejemplo": true
+        }
+      ]
+    },
+    {
+      "id": "test-base-galleta-grasa-mixta",
+      "emoji": "🧪",
+      "nombre": "Test base galleta — Grasa mixta",
+      "estado": "DESARROLLADA",
+      "tarrosBatch": 10,
+      "pvpLocal": null,
+      "pvpDelivery": 6.97,
+      "cad": 4,
+      "alergenos": [
+        "🥛 Lácteos",
+        "🌾 Gluten"
+      ],
+      "sensorial": {},
+      "notas": "",
+      "metodo": [],
+      "ingredientes": [
+        {
+          "nombre": "Galleta María — base",
+          "cantidad": 40,
+          "unidad": "g",
+          "costePorUnidad": 0.0024,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Extracto de vainilla",
+          "cantidad": 0.3,
+          "unidad": "ml",
+          "costePorUnidad": 0.05,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Aceite de girasol — base",
+          "cantidad": 6,
+          "unidad": "ml",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Mantequilla",
+          "cantidad": 10,
+          "unidad": "g",
+          "costePorUnidad": 0.008,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Azúcar glacé",
+          "cantidad": 20,
+          "unidad": "g",
+          "costePorUnidad": 0.002,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Nata 35%",
+          "cantidad": 40,
+          "unidad": "ml",
+          "costePorUnidad": 0.003,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Queso crema",
+          "cantidad": 100,
+          "unidad": "g",
+          "costePorUnidad": 0.006,
+          "ejemplo": true
+        }
+      ]
+    },
     {
       "id": "cheesecake-cl-sica",
       "emoji": "🍰",
