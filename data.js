@@ -32,10 +32,10 @@ window.POSTRES_DATA = {
       "metodo": [],
       "ingredientes": [
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         },
         {
@@ -100,10 +100,10 @@ window.POSTRES_DATA = {
       "metodo": [],
       "ingredientes": [
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         },
         {
@@ -175,6 +175,13 @@ window.POSTRES_DATA = {
       ],
       "ingredientes": [
         {
+          "nombre": "Leche condensada — base",
+          "cantidad": 8,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
           "nombre": "Nata 35%",
           "cantidad": 40,
           "unidad": "ml",
@@ -196,15 +203,15 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         },
         {
           "nombre": "Mantequilla",
-          "cantidad": 17.5,
+          "cantidad": 12,
           "unidad": "g",
           "costePorUnidad": 0.008,
           "ejemplo": true
@@ -253,9 +260,9 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Aceite de girasol — base",
-          "cantidad": 6,
-          "unidad": "ml",
+          "nombre": "Leche condensada — base",
+          "cantidad": 8,
+          "unidad": "g",
           "costePorUnidad": 0.005,
           "ejemplo": true
         },
@@ -274,10 +281,10 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         },
         {
@@ -296,7 +303,7 @@ window.POSTRES_DATA = {
         },
         {
           "nombre": "Mantequilla",
-          "cantidad": 10,
+          "cantidad": 12,
           "unidad": "g",
           "costePorUnidad": 0.008,
           "ejemplo": true
@@ -379,10 +386,10 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         },
         {
@@ -469,10 +476,10 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Galleta María — base",
+          "nombre": "Galleta Digestive — base",
           "cantidad": 40,
           "unidad": "g",
-          "costePorUnidad": 0.0024,
+          "costePorUnidad": 0.005,
           "ejemplo": true
         }
       ]
@@ -503,6 +510,13 @@ window.POSTRES_DATA = {
       ],
       "ingredientes": [
         {
+          "nombre": "Leche condensada — base",
+          "cantidad": 8,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
           "nombre": "Extracto de vainilla",
           "cantidad": 0.3,
           "unidad": "ml",
@@ -532,7 +546,7 @@ window.POSTRES_DATA = {
         },
         {
           "nombre": "Mantequilla",
-          "cantidad": 17.5,
+          "cantidad": 8,
           "unidad": "g",
           "costePorUnidad": 0.008,
           "ejemplo": true
