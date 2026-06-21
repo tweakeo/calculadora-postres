@@ -175,6 +175,13 @@ window.POSTRES_DATA = {
       ],
       "ingredientes": [
         {
+          "nombre": "Mermelada de guayaba — crema de sabor (capas)",
+          "cantidad": 40,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
           "nombre": "Leche condensada — base",
           "cantidad": 8,
           "unidad": "g",
@@ -275,7 +282,7 @@ window.POSTRES_DATA = {
         },
         {
           "nombre": "Azúcar glacé",
-          "cantidad": 10,
+          "cantidad": 20,
           "unidad": "g",
           "costePorUnidad": 0.002,
           "ejemplo": true
@@ -288,7 +295,7 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Kinder Bueno White — mezcla + topping",
+          "nombre": "Kinder Bueno White — topping (corona)",
           "cantidad": 25,
           "unidad": "g",
           "costePorUnidad": 0.005,
@@ -309,8 +316,8 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Nocilla fluida blanca — mezcla",
-          "cantidad": 33,
+          "nombre": "Nocilla blanca — crema de sabor (capas)",
+          "cantidad": 40,
           "unidad": "g",
           "costePorUnidad": 0.005,
           "ejemplo": true
