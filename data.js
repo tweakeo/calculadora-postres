@@ -219,6 +219,182 @@ window.POSTRES_DATA = {
       ]
     },
     {
+      "id": "cheesecake-kinder-bueno-blanco",
+      "emoji": "🤍",
+      "nombre": "CHEESECAKE KINDER BUENO BLANCO",
+      "estado": "DESARROLLADA",
+      "tarrosBatch": 10,
+      "pvpLocal": null,
+      "pvpDelivery": 7.97,
+      "cad": 4,
+      "alergenos": [
+        "🥛 Lácteos",
+        "🌾 Gluten",
+        "🥜 Frutos secos"
+      ],
+      "sensorial": {},
+      "notas": "Cheesecake sin horno de Kinder Bueno White, sin gelatina. Base María, mousse de queso con Nocilla blanca y Kinder Bueno White troceado, topping de barrita + hilo de Nocilla. Cuaja por la nata montada (mantener en frío).",
+      "metodo": [
+        "Triturar galleta María + mantequilla — compactar base, refrigerar 15 min",
+        "Montar la nata fría a picos firmes",
+        "Batir queso crema + azúcar glacé",
+        "Integrar la Nocilla blanca",
+        "Añadir la nata montada en envolvente",
+        "Incorporar Kinder Bueno White troceado (reservar para topping)",
+        "Rellenar — refrigerar mínimo 4 h. Mantener en frío",
+        "Topping: trozo de Kinder Bueno White + hilo de Nocilla blanca — sellar"
+      ],
+      "ingredientes": [
+        {
+          "nombre": "Extracto de vainilla",
+          "cantidad": 0.3,
+          "unidad": "ml",
+          "costePorUnidad": 0.05,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Aceite de girasol — base",
+          "cantidad": 6,
+          "unidad": "ml",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Nata 35%",
+          "cantidad": 40,
+          "unidad": "ml",
+          "costePorUnidad": 0.003,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Azúcar glacé",
+          "cantidad": 10,
+          "unidad": "g",
+          "costePorUnidad": 0.002,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Galleta María — base",
+          "cantidad": 40,
+          "unidad": "g",
+          "costePorUnidad": 0.0024,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Kinder Bueno White — mezcla + topping",
+          "cantidad": 25,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Queso crema",
+          "cantidad": 100,
+          "unidad": "g",
+          "costePorUnidad": 0.006,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Mantequilla",
+          "cantidad": 10,
+          "unidad": "g",
+          "costePorUnidad": 0.008,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Nocilla fluida blanca — mezcla",
+          "cantidad": 33,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        }
+      ]
+    },
+    {
+      "id": "cheesecake-kinder",
+      "emoji": "🍫",
+      "nombre": "CHEESECAKE KINDER",
+      "estado": "DESARROLLADA",
+      "tarrosBatch": 10,
+      "pvpLocal": null,
+      "pvpDelivery": 7.97,
+      "cad": 4,
+      "alergenos": [
+        "🥛 Lácteos",
+        "🌾 Gluten",
+        "🥜 Frutos secos"
+      ],
+      "sensorial": {},
+      "notas": "Cheesecake sin horno estilo Kinder, sin gelatina. Base María, mousse de queso con Kinder Schokobons triturados, topping de Schokobon + hilo de Nocilla. Cuaja por la nata montada (mantener en frío).",
+      "metodo": [
+        "Triturar galleta María + mantequilla — compactar base, refrigerar 15 min",
+        "Montar la nata fría a picos firmes",
+        "Batir queso crema + azúcar glacé",
+        "Añadir la nata montada en envolvente",
+        "Incorporar Schokobons triturados (reservar algunos enteros)",
+        "Rellenar — refrigerar mínimo 4 h. Mantener en frío",
+        "Topping: Schokobon entero + hilo de Nocilla — sellar"
+      ],
+      "ingredientes": [
+        {
+          "nombre": "Extracto de vainilla",
+          "cantidad": 0.3,
+          "unidad": "ml",
+          "costePorUnidad": 0.05,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Aceite de girasol — base",
+          "cantidad": 6,
+          "unidad": "ml",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Nata 35%",
+          "cantidad": 40,
+          "unidad": "ml",
+          "costePorUnidad": 0.003,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Queso crema",
+          "cantidad": 100,
+          "unidad": "g",
+          "costePorUnidad": 0.006,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Mantequilla",
+          "cantidad": 10,
+          "unidad": "g",
+          "costePorUnidad": 0.008,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Azúcar glacé",
+          "cantidad": 10,
+          "unidad": "g",
+          "costePorUnidad": 0.002,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Galleta María — base",
+          "cantidad": 40,
+          "unidad": "g",
+          "costePorUnidad": 0.0024,
+          "ejemplo": true
+        },
+        {
+          "nombre": "Kinder Schokobons — mezcla + topping",
+          "cantidad": 31,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        }
+      ]
+    },
+    {
       "id": "cheesecake-coco",
       "emoji": "🥥",
       "nombre": "CHEESECAKE COCO",
