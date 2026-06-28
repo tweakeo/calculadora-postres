@@ -6,7 +6,7 @@
 window.POSTRES_DATA = {
   "_meta": {
     "fuente": "Notion — DESARROLLO DE POSTRES (Chamberí)",
-    "generado": "2026-06-21",
+    "generado": "2026-06-28",
     "baseUnidad": "1 tarro (370 ml)",
     "packagingPorTarro": 0.82,
     "lotePrefix": "TT",
@@ -358,9 +358,9 @@ window.POSTRES_DATA = {
           "ejemplo": true
         },
         {
-          "nombre": "Aceite de girasol — base",
-          "cantidad": 6,
-          "unidad": "ml",
+          "nombre": "Leche condensada — base",
+          "cantidad": 8,
+          "unidad": "g",
           "costePorUnidad": 0.005,
           "ejemplo": true
         },
@@ -380,7 +380,7 @@ window.POSTRES_DATA = {
         },
         {
           "nombre": "Mantequilla",
-          "cantidad": 10,
+          "cantidad": 12,
           "unidad": "g",
           "costePorUnidad": 0.008,
           "ejemplo": true
@@ -434,8 +434,15 @@ window.POSTRES_DATA = {
       ],
       "ingredientes": [
         {
+          "nombre": "Leche condensada — base",
+          "cantidad": 8,
+          "unidad": "g",
+          "costePorUnidad": 0.005,
+          "ejemplo": true
+        },
+        {
           "nombre": "Mantequilla",
-          "cantidad": 17.5,
+          "cantidad": 12,
           "unidad": "g",
           "costePorUnidad": 0.008,
           "ejemplo": true
@@ -518,7 +525,7 @@ window.POSTRES_DATA = {
       "ingredientes": [
         {
           "nombre": "Leche condensada — base",
-          "cantidad": 8,
+          "cantidad": 6,
           "unidad": "g",
           "costePorUnidad": 0.005,
           "ejemplo": true
